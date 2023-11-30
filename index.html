@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio GitFav</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="./js/script.js" type="module" defer></script>
+</head>
+
+<body>
+   <div id="container">
+      <header>
+          <img src="./images/gitfav.svg" alt="imagem de uma estrela branca entre colchetes e ao lado escrito o nome GitFav">
+          <div id="search">
+              <label id="label" for="search-bar">Digite o Github username que quer favoritar</label>
+              <input type="text" id="search-bar" placeholder="Digite o Github username que quer favoritar">
+              <button><div class="button-star"><img src="./images/star.svg" alt="Imagem de uma estrela branca" id="star-svg"></div>FAVORITAR</button>
+          </div>
+      </header>
+      <table>
+          <thead>
+              <tr>
+                  <th>Usuário</th>
+                  <th>Repositories</th>
+                  <th>Followers</th>
+                  <th>Ação</th>
+              </tr>
+          </thead>
+            <div class="wrapp">
+                <tbody></tbody>
+            </div>
+      </table>
+   </div>
+</body>
+</html>
